@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="menu :: menuFr"></div>
+<div>
+    <h2>Student Form</h2>
+    <form action="/save" method="post">
+        Name:<input type="text" name="name">
+        sem:<input type="number" name="sem">
+        <button type="submit">Register</button>
+
+
+    </form>
+</div>
+
+</body>
+</html>
